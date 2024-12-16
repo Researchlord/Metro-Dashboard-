@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="grid-container">
+    <!---Header-->
+    <header class="Header">
+          <div class="menu-icon" onclick="openSideBar()">
+         <i class="fa fa-bars" id="menu"></i>
+          </div>
+           <div class="header-left">
+            <i class="fa fa-search"></i>
+           </div>
+           <div class="header-right">
+            <i class="fa fa-bell"></i>
+            <i class="fa fa-message"></i>
+            <i class="fa fa-user-circle"></i>
+           </div>
+    </header>
+    <!--End Header-->
+    <!--Side Bar-->
+    <aside class="side-bar">
+        <div class="sidebar-title">
+            <div class="sidebar-brand">
+                <i class="fa fa-star-and-crescent"></i><h1>Metro</h1>
+            </div>
+            <i class="fa fa-close" onclick="closeSideBar()"></i>
+        </div>
+           
+        <ul class="sidebar-list">
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i>Dashboard
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <i class="fa fa-trophy"></i>LeaderBoard
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <i class="fa fa-poll"></i>Forum
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <i class="fa fa-phone"></i>Support
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <i class="fa fa-mail-bulk"></i>Messages
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <i class="fa fa-bar-chart"></i>Report
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <i class="fa fa-atom"></i>Settings
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <!--End Sidebar-->
+    <!--Main-->
+    <main class="main-container">
+     <div class="main-title">
+        <h2>DASHBOARD > </h2>
+     </div>
+      <br>
+      <h5>EMMANUEL OGUNBAMERUN  :</h5>
+      <br>
+     <div class="main-cards">
+        <div class="card">
+            <div class="card-inner">
+                <h3>LIKES</h3>
+                <i class="fa fa-thumbs-up"></i>
+            </div>
+             <h2>3200130</h2>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <h3>SUBSCRIBERS</h3>
+                <i class="fa fa-poll-h"></i>
+            </div>
+             <h2>172,302</h2>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <h3>FOLLOWERS</h3>
+                <i class="fa fa-people-group"></i>
+            </div>
+             <h2>204600</h>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <h3>MESSAGES</h3>
+                <i class="fa fa-message"></i>
+            </div>
+             <h2>1732</h>
+        </div>
+     </div>
+
+     <div class="products">
+        <div class="product-card">
+            <h2 class="product-description">Latest Updates</h2>
+            <p class="text-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque culpa debitis veniam repellendus non rerum vel tempore maxime, soluta official.
+            </p>
+            <button class="product-button">
+                <i class="fa fa-add"></i>
+            </button>
+        </div>
+
+
+        <div class="social-media">
+            <div class="product">
+                
+                <div>
+                    <div class="product-icon background-red">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <h1 class="text-red">+104</h1>
+                    <p class="text-scondary">Lorem ipsum dolor si,  amet consectetur adipisicing elit.</p>
+                </div>
+                <div>
+                    <div class="product-icon background-red">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <h1 class="text-red">+1272</h1>
+                    <p class="text-scondary">Lorem ipsum dolor si,  amet consectetur adipisicing elit.</p>
+                </div>
+        
+                <div>
+                    <div class="product-icon background-red">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <h1 class="text-red">+1872</h1>
+                    <p class="text-scondary">Lorem ipsum dolor si,  amet consectetur adipisicing elit.</p>
+                </div>
+        
+                <div>
+                    <div class="product-icon background-red">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <h1 class="text-red">+294</h1>
+                    <p class="text-scondary">Lorem ipsum dolor si,  amet consectetur adipisicing elit.</p>
+                </div>
+        </div>
+        </div>
+
+    </div>
+
+    </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
