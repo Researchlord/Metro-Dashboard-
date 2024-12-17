@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Media Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -11,8 +14,8 @@
     <div class="grid-container">
     <!---Header-->
     <header class="Header">
-          <div class="menu-icon" onclick="openSideBar()">
-         <i class="fa fa-bars" id="menu"></i>
+          <div class="menu-icon">
+        <img src="./img/menu_30dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="menu">
           </div>
            <div class="header-left">
             <i class="fa fa-search"></i>
@@ -30,7 +33,7 @@
             <div class="sidebar-brand">
                 <i class="fa fa-star-and-crescent"></i><h1>Metro</h1>
             </div>
-            <i class="fa fa-close" onclick="closeSideBar()"></i>
+        <img src="./img/close_30dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" class="close" alt="close_logo">
         </div>
            
         <ul class="sidebar-list">
@@ -73,7 +76,11 @@
     </aside>
     <!--End Sidebar-->
     <!--Main-->
+
+
+  
     <main class="main-container">
+        <section>
      <div class="main-title">
         <h2>DASHBOARD > </h2>
      </div>
@@ -163,8 +170,9 @@
         </div>
 
     </div>
-
+</section>
     </main>
+    
     </div>
 
     <script src="script.js"></script>
